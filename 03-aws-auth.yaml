@@ -15,3 +15,7 @@ data:
         - roboshop-trainee
       userarn: arn:aws:iam::764694154057:user/vardhan
       username: vardhan
+    - groups:
+        - roboshop-admin
+      userarn: arn:aws:iam::764694154057:user/vardhanbabu
+      username: vardhanbabu
