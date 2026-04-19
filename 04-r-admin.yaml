@@ -18,11 +18,11 @@ rules:
   #
   # at the HTTP level, the name of the resource for accessing Secret
   # objects is "secrets"
-  resources: ["persistentvolume"]
+  resources: ["persistentvolumes"]
   verbs: ["get", "watch", "list"]
 - apiGroups: ["storage.k8s.io"]
   #
   # at the HTTP level, the name of the resource for accessing Secret
   # objects is "secrets"
-  resources: ["storageclass"]
+  resources: ["storageclasses"]
   verbs: ["get", "watch", "list"]
