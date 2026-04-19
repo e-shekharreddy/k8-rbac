@@ -23,7 +23,7 @@ data:
         - roboshop-trainee
       userarn: arn:aws:iam::764694154057:user/sri
       username: sri
-     - groups:
+    - groups:
         - roboshop-trainee
       userarn: arn:aws:iam::764694154057:user/sriarchana
       username: sriarchana
